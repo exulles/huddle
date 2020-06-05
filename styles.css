@@ -1,0 +1,78 @@
+/* - Violet: hsl(257, 40%, 49%) #674BAF
+- font-family: 'Poppins', sans-serif;
+- Weights: 400, 700
+font-family: 'Open Sans', sans-serif; */
+body {
+  background-image: url('images/bg-desktop.svg');
+  background-color: #674BAF;
+  background-size: cover;
+  margin: 2% 3%;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.logo-img {
+  padding-bottom: 3%;
+}
+
+.img-bit {
+  width: 100%;
+}
+
+.text-bit {
+  padding: 5% 10%;
+  width: 95%;
+}
+
+.button {
+  /* background-color: #fff;
+  border: 1px;
+  padding: 2% 10%;
+  border-radius: 50%; */
+  background-color: #fff;
+  border-radius: 34px;
+  border: 1px solid #fff;
+  display: inline-block;
+  cursor: pointer;
+  color: #674BAF;
+  padding: 10px 51px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.button:hover {
+  background-color: #BC4CB5;
+  border: 1px solid #BC4CB5;
+  color: #fff;
+}
+
+.social {
+  font-size: 1.8rem;
+  margin-top: 40%;
+  text-align: right;
+}
+
+.fab:hover {
+  color: #BC4CB5;
+}
+
+@media (max-width: 990px) {
+  body {
+    text-align: center;
+  }
+
+  .social {
+    font-size: 1.8rem;
+    margin-top: 20%;
+    text-align: center;
+  }
+}
